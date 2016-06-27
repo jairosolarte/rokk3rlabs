@@ -5,6 +5,8 @@ El ejercicio no esta completo espero que se de su agrado. puede visualizar en ht
 + Grunt
 + SASS
 + Angular
-+ Angular router,
++ Angular router.
+
+En components se puede visualizar el archivos js y el css.scss
 
 
