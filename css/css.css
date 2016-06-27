@@ -1,0 +1,134 @@
+/* line 2, ../components/scss/css.scss */
+body {
+  margin: 0px;
+}
+/* line 4, ../components/scss/css.scss */
+body * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../components/scss/css.scss */
+.header {
+  width: 100%;
+  height: 61px;
+  background-color: #2f323a;
+}
+/* line 14, ../components/scss/css.scss */
+.header .Rectangle-2189-Copy {
+  width: 264px;
+  height: 61px;
+  background-color: #1e2025;
+  display: inline-block;
+  background: #1e2025 url("../img/r-3-l-logo-application-02.png") no-repeat center;
+}
+/* line 23, ../components/scss/css.scss */
+.header .top {
+  width: calc(100% - 270px);
+  height: 61px;
+  background-color: #2f323a;
+  display: inline-block;
+}
+
+/* line 31, ../components/scss/css.scss */
+.Rectangle-766 {
+  width: calc(100% - 266px);
+  height: 740px;
+  background-color: #f5f5fa;
+  float: left;
+}
+/* line 37, ../components/scss/css.scss */
+.Rectangle-766 #container, .Rectangle-766 #container2 {
+  width: calc(100% - 190px);
+  height: 350px;
+  margin: 15px auto;
+  border: 1px solid #CDCDCD;
+}
+
+/* line 45, ../components/scss/css.scss */
+.left_menu {
+  float: left;
+  width: 264px;
+  height: 740px;
+  background-color: #2f323a;
+  padding-top: 10px;
+}
+/* line 51, ../components/scss/css.scss */
+.left_menu .search {
+  width: 190px;
+  margin: 0px auto;
+  /* firefox 19+ */
+  /* ie */
+}
+/* line 54, ../components/scss/css.scss */
+.left_menu .search input {
+  height: 28px;
+  background-color: #2f323a;
+  border: 0px;
+  color: #FFF;
+}
+/* line 61, ../components/scss/css.scss */
+.left_menu .search input::-webkit-input-placeholder {
+  color: #575a5f;
+}
+/* line 62, ../components/scss/css.scss */
+.left_menu .search input::-moz-placeholder {
+  color: #575a5f;
+}
+/* line 63, ../components/scss/css.scss */
+.left_menu .search input:-ms-input-placeholder {
+  color: #575a5f;
+}
+/* line 64, ../components/scss/css.scss */
+.left_menu .search input:-moz-placeholder {
+  color: #575a5f;
+}
+/* line 66, ../components/scss/css.scss */
+.left_menu ul {
+  padding: 5px;
+}
+/* line 69, ../components/scss/css.scss */
+.left_menu li:hover {
+  background-color: #1e2025;
+}
+/* line 72, ../components/scss/css.scss */
+.left_menu li {
+  list-style: none;
+  height: 30px;
+  padding: 5px;
+}
+/* line 76, ../components/scss/css.scss */
+.left_menu li a {
+  width: 67px;
+  height: 19px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: middle;
+}
+/* line 87, ../components/scss/css.scss */
+.left_menu li .icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+}
+/* line 93, ../components/scss/css.scss */
+.left_menu li .iconAnaltics {
+  background: url("../img/analitycs.png") no-repeat center;
+}
+/* line 97, ../components/scss/css.scss */
+.left_menu li .iconNew {
+  background: url("../img/newspaper-o.png") no-repeat center;
+}
+/* line 101, ../components/scss/css.scss */
+.left_menu li .iconBoardBrief {
+  background: url("../img/board-brief.png") no-repeat center;
+}
+/* line 105, ../components/scss/css.scss */
+.left_menu li .iconBriefcase {
+  background: #2f323a url("../img/briefcase.png") no-repeat center;
+}
