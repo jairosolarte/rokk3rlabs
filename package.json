@@ -1,0 +1,20 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba para frontEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gruntJs"
+  ],
+  "author": "Jairo Fernando Solarte Palacios",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

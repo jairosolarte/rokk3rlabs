@@ -1,0 +1,111 @@
+
+body{
+    margin: 0px;
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+.header{
+    width: 100%;
+    height: 61px; 
+    background-color: #2f323a;
+    .Rectangle-2189-Copy {
+        width: 264px;
+        height: 61px;
+        background-color: #1e2025;
+        display: inline-block;
+        background: #1e2025 url("../img/r-3-l-logo-application-02.png") no-repeat center;
+        
+    }
+    
+    .top {
+        width: calc(100% - 270px);
+        height: 61px;
+        background-color: #2f323a;
+        display: inline-block;  
+    }
+}
+
+.Rectangle-766 {
+  width: calc(100% - 266px);
+  height: 740px;
+  background-color: #f5f5fa;
+  float: left;  
+  
+    #container, #container2{
+        width: calc(100% - 190px);
+        height: 350px;
+        margin: 15px auto;
+        border: 1px solid #CDCDCD;
+    }
+}
+
+.left_menu {
+    float: left;
+    width: 264px;
+    height: 740px;
+    background-color: #2f323a;
+    padding-top: 10px;
+    .search{
+        width: 190px;
+        margin: 0px auto;
+        input{
+            height: 28px;
+            background-color: #2f323a;
+            border: 0px;
+            color: #FFF;
+            
+        }
+        input::-webkit-input-placeholder { color:#575a5f; }
+        input::-moz-placeholder { color:#575a5f; } /* firefox 19+ */
+        input:-ms-input-placeholder { color:#575a5f; } /* ie */
+        input:-moz-placeholder { color:#575a5f; }
+    }
+    ul{
+        padding: 5px;
+    }
+    li:hover { 
+    background-color: #1e2025;
+    }
+    li{
+        list-style:none;
+        height: 30px;
+        padding: 5px;
+        a{
+            width: 67px;
+            height: 19px;
+            font-family: Roboto, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration:none;
+            vertical-align: middle;
+        }
+        
+        .icon{
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin-right: 5px;
+        }
+        .iconAnaltics{
+            background:  url("../img/analitycs.png") no-repeat center;
+        }
+        
+        .iconNew{
+            background:  url("../img/newspaper-o.png") no-repeat center;
+        }
+        
+        .iconBoardBrief{
+            background:  url("../img/board-brief.png") no-repeat center;
+        }
+        
+        .iconBriefcase{
+            background: #2f323a url("../img/briefcase.png") no-repeat center;
+        }
+        
+        
+    }
+}
